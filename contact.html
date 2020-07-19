@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isharya Jewellers</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" type="icon" href="images/logo.png">
+    <script src="js/all.min.js"></script>
+
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border border-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" width="60" height="50" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                  </li>
+                
+              </ul>
+            </div>
+          </nav>
+    </header>
+    
+    <section id="about" class="bg-light">
+        <h1 class="text-center display-4 mt-5 mb-3" style="font-size: 50px;">Contact Us</h1>
+    </section>
+    <br>
+    <section>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h2>Isharya Jewellers</h2>
+                    <div class="col-md-6">
+                     <ul>
+                        <li> <i class="fas fa-phone-square"> </i> 9860198377</li>
+                        <li> <i class="fas fa-envelope-square"></i> Isharya27@gmail.com</li>
+                        <li> <i class="fas fa-map-marker-alt" ></i> Bandra kurla complex mumbai road dev authority bkc east Mumbai, MAHARASHTRA 400051</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15084.031498095706!2d72.85185607632782!3d19.063391393520753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8df0b86ea1b%3A0xce7eea4b1bbdf296!2sBandra%20Kurla%20Complex%2C%20Bandra%20East%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1577023359554!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="feedback">
+        <div class="container pt-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <form method="POST" action="connection.php">
+                        <fieldset class="border px-3">
+                            <legend>Feedback</legend>
+                            <div class="form-group">
+                                <label for="name"> First Name</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="First Name" name="firstname">
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="name">Last Name</label>
+                                <input type="text" class="form-control" id="lastname" placeholder="Last Name" name="lastname">
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email required" placeholder="name@gmail.com" name="email">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="comment">Feedback</label>
+                                <textarea class="form-control" id="comment" rows="3" name="comment"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="Submit" class="btn btn-light">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="footer" class="border border-light bg-light">
+        <div class="container ">
+            <div class="row py-4 ">
+                <div class="col-6 ">
+                    <img src="images/logo.png " width="75px" width="75px">
+                    <p><b class="title">Isharya Jewellers</b>
+                        <b</p>
+                            <br>
+                            <span> <i class="far fa-copyright "></i> Copyright 2019 </span>
+
+
+                </div>
+                <div class="col-6 heading">
+                    <div class="row justify-content-around col-4 round float-md-right ">
+                        <span><i class="fab fa-facebook-square "></i> Facebook </span>
+                        <span><i class="fab fa-whatsapp "></i> Whatsapp </span>
+                        <span><i class="fab fa-google-plus-g "></i> Google+ </span>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </footer>
+  
+    
+</body>
+</html>
